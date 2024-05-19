@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Lower Navbar Starts*/
+.horizontal_line_cus {
+    margin-top: 4%;
+    color: #ffffff;
+}
+.lower_navbar_cus {
+    background-color: #f295b2 !important;
+    height: 100px;
+}
+.lower_navbar_nav_cus a {
+    color: #ffffff;
+}
+.social_icon_cus {
+    gap: 20px;
+}
+.social_icon_cus a {
+    color: #ffffff;
+}
+.lower_navbar_item_cus {
+    margin-bottom: 35px;
+}
+/*Lower Navbar Ends*/
