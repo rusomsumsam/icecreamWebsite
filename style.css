@@ -67,4 +67,12 @@
         font-size: 22px;
         font-weight: bold;
     }
+    .offcanvas_transition_cus {
+        transition: 1s !important;
+        -webkit-transition: 1s !important;
+        -moz-transition: 1s !important;
+        -ms-transition: 1s !important;
+        -o-transition: 1s !important;
 }
+}
+/*!Lower Navbar For Responsive Ends*/
