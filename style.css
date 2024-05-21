@@ -3,67 +3,68 @@
     padding: 0;
 }
 /*Lower Navbar Starts*/
-.horizontal_line_cus {
-    margin-top: 4%;
-    color: #ffffff;
-}
-.lower_navbar_cus {
-    background-color: #f295b2 !important;
-    height: 100px;
-}
-.lower_navbar_nav_cus a {
-    color: #ffffff;
-}
-.social_icon_cus {
-    gap: 20px;
-}
-.social_icon_cus a {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-}
-.lower_navbar_item_cus {
-    margin-bottom: 35px;
-}
-/*Lower Navbar Ends*/
-/*Upper Navbar Starts*/
-.menu_item_wrap a {
-    text-decoration: none;
-    color: #6e6e6e;
-    font-family: "Poppins", sans-serif;
-}
-.item_cus {
-    gap: 40px;
-}
-.menu_item_wrap {
+.lower_navbar_cus_main {
     width: 100%;
     height: 100px;
-    gap: 70px;
-    background-color: #ffffff;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    background-color: #f295b2;
 }
-.lower_navbar_main {
-    position: relative;
+.lower_navbar_first_item_cus {
+    gap: 10px;
 }
-.upper_navbar_main {
-    width: 80%;
-    position: absolute;
-    top: 9%;
-    left: 10%;
-}
-.item_two_wrap a {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
+.lower_navbar_first_item_cus a, .horizontal_line_cus, .lower_navbar_second_item_cus a {
+    color: #fdebe7;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
     font-style: normal;
-    font-size: 50px;
-    color: #f295b2;
 }
-.item_two_wrap a span {
-    color: #62c3e6;
+.lower_navbar_second_item_cus {
+    gap: 20px; 
 }
-/*Upper Navbar Ends*/
-
-
+/*Lower Navbar Ends*/
+/*!Lower Navbar For Responsive Starts*/
+@media only screen and (min-width:600px) and (max-width:991px) {
+    .lower_navbar_cus_inner {
+        width: 96% !important;
+        margin: auto !important;
+    }
+}
+@media only screen and (max-width:991px) {
+    .hamburger_menu_align {
+        width: 100%;
+        height: 80px !important;
+        background-color: #ffffff;
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lower_navbar_cus_main {
+        height: 80px;
+        background-color: #ffffff;
+    }
+    .lower_navbar_cus_inner {
+        padding: 0 !important;
+    }
+    .lower_navbar_brand_cus {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 45px !important;
+        color: #f295b2 !important;
+    }
+    .lower_navbar_brand_cus span {
+        color: #62c3e6;
+    }
+    .offcanvas {
+        width: 265px !important;
+        background-color: #5f595b !important;
+    }
+    .hamburger_menu_item_cus {
+        display: flex !important;
+        align-items: center !important;
+    }
+    .hamburger_menu_item_cus li a {
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
