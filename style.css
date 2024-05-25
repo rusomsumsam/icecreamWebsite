@@ -11,10 +11,15 @@
 .lower_navbar_first_item_cus {
     gap: 10px;
 }
-.lower_navbar_first_item_cus li a, .horizontal_line_cus, .lower_navbar_second_item_cus li a {
+.lower_navbar_first_item_cus li a, .horizontal_line_cus {
     color: #fdebe7;
     font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.lower_navbar_second_item_cus a {
+    color: #fdebe7;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     font-style: normal;
 }
