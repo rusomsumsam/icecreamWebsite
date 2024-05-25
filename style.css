@@ -11,7 +11,7 @@
 .lower_navbar_first_item_cus {
     gap: 10px;
 }
-.lower_navbar_first_item_cus a, .horizontal_line_cus, .lower_navbar_second_item_cus a {
+.lower_navbar_first_item_cus li a, .horizontal_line_cus, .lower_navbar_second_item_cus li a {
     color: #fdebe7;
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
@@ -20,6 +20,21 @@
 }
 .lower_navbar_second_item_cus {
     gap: 20px; 
+}
+.lower_navbar_first_item_cus_two {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    gap: 15px;
+    justify-content: center;
+    align-items: end;
+}
+.lower_navbar_first_item_cus_two a {
+    color: #fdebe7;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 /*Lower Navbar Ends*/
 /*!Lower Navbar For Responsive Starts*/
@@ -66,13 +81,61 @@
     .hamburger_menu_item_cus li a {
         font-size: 22px;
         font-weight: bold;
+        color: #fdebe7;
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
     }
     .offcanvas_transition_cus {
-        transition: 1s !important;
-        -webkit-transition: 1s !important;
-        -moz-transition: 1s !important;
-        -ms-transition: 1s !important;
-        -o-transition: 1s !important;
+        transition: 0.5s !important;
+        -webkit-transition: 0.5s !important;
+        -moz-transition: 0.5s !important;
+        -ms-transition: 0.5s !important;
+        -o-transition: 0.5s !important;
 }
 }
 /*!Lower Navbar For Responsive Ends*/
+/*Upper Navbar Starts*/
+.upper_navbar_left_item_cus, .upper_navbar_right_item_cus {
+    gap: 50px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.upper_navbar_brand {
+    font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 50px !important;
+        color: #f295b2 !important;
+}
+.upper_navbar_brand span {
+    color: #62c3e6;
+}
+.upper_navbar_cus_main {
+    width: 80%;
+    height: 90px;
+    margin: -50px auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.upper_navbar_cus_inner {
+    width: 80%;
+    margin: auto;
+}
+.upper_navbar_left_item_cus a, .upper_navbar_right_item_cus a {
+    color: #575757;
+}
+/*Upper Navbar Ends*/
+/*!Upper Navbar For Responsive Starts*/
+@media only screen and (min-width:992px) and (max-width:1300px) {
+    .upper_navbar_left_item_cus, .upper_navbar_right_item_cus {
+        gap: 20px !important;
+    }
+}
+/*!Upper Navbar For Responsive Ends*/
+
+
