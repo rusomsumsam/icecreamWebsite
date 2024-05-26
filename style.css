@@ -41,6 +41,10 @@
     font-weight: bold;
     font-style: normal;
 }
+.lower_navbar_first_item_cus li a:hover {
+    text-decoration: underline;
+    color: #fdebe7;
+}
 /*Lower Navbar Ends*/
 /*!Lower Navbar For Responsive Starts*/
 @media only screen and (min-width:600px) and (max-width:991px) {
@@ -131,8 +135,11 @@
     width: 80%;
     margin: auto;
 }
-.upper_navbar_left_item_cus a, .upper_navbar_right_item_cus a {
+.upper_navbar_left_item_cus li a, .upper_navbar_right_item_cus li a {
     color: #575757;
+}
+.upper_navbar_left_item_cus li a:hover, .upper_navbar_right_item_cus li a:hover {
+    color: #f295b2;
 }
 /*Upper Navbar Ends*/
 /*!Upper Navbar For Responsive Starts*/
