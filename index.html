@@ -13,9 +13,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/regular.min.css" integrity="sha512-KYEnM30Gjf5tMbgsrQJsR0FSpufP9S4EiAYi168MvTjK6E83x3r6PTvLPlXYX350/doBXmTFUEnJr/nCsDovuw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/v5-font-face.min.css" integrity="sha512-gb3xyfj/FrHtphPVLYaKBZ8WyMYEXD1+Cgt3FiKhFmbN2UuOpite2w1Lgmw6NzfsNmMGX+BbVra4ceV95z9Vaw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .item {
+        width: 100% !important;
+      }
+      .btn_pill {
+        width: 150px;
+        border-radius: 50px;
+        background-color: #f295b2;
+        color: #fdebe7;
+        padding: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+    </style>
 </head>
 <body>
   <!--Lower Navbar Starts-->
@@ -103,6 +119,32 @@
     </div>
   </section>
   <!--Upper Navbar Ends-->
+  <!--Slider Hero Section Starts-->
+  <section class="hero_slider_main w-100">
+    <div class="hero_slider_inner">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="slider_img_one">
+            <div class="slider_content_wrap w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+              <p class="text-center slider_content_one animate__animated animate__backInDown">TRADITIONAL & DELICIOUS</p>
+              <P class="text-center slider_content_two w-50 animate__animated animate__fadeIn">Made From Our Own Organic Milk</P>
+              <button type="button" class="btn btn_pill animate__animated animate__jackInTheBox">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="slider_img_two">
+            <div class="slider_content_wrap w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+              <p class="text-center slider_content_one animate__animated animate__backInDown">TRADITIONAL & DELICIOUS</p>
+              <P class="text-center slider_content_two w-50 animate__animated animate__fadeIn">Made From Our Own Organic Milk</P>
+              <button type="button" class="btn btn_pill animate__animated animate__jackInTheBox">Learn More</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <!--Slider Hero Section Ends-->
 
 
 
@@ -114,6 +156,25 @@
       const bsOffcanvas = new bootstrap.Offcanvas('#myOffcanvas')
       const offcanvasElementList = document.querySelectorAll('.offcanvas')
       const offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))
+    </script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
     </script>
 </body>
 </html>

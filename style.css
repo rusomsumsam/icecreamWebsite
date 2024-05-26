@@ -5,8 +5,9 @@
 /*Lower Navbar Starts*/
 .lower_navbar_cus_main {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #f295b2;
+    position: relative;
 }
 .lower_navbar_first_item_cus {
     gap: 10px;
@@ -44,6 +45,9 @@
 .lower_navbar_first_item_cus li a:hover {
     text-decoration: underline;
     color: #fdebe7;
+}
+#navbarSupportedContent {
+    margin-top: 3px;
 }
 /*Lower Navbar Ends*/
 /*!Lower Navbar For Responsive Starts*/
@@ -109,27 +113,32 @@
     font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: bold;
+    align-items: center !important;
+    justify-content: center !important;
 }
 .upper_navbar_brand {
     font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        font-size: 50px !important;
-        color: #f295b2 !important;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px !important;
+    color: #f295b2 !important;
 }
 .upper_navbar_brand span {
     color: #62c3e6;
 }
 .upper_navbar_cus_main {
     width: 80%;
-    height: 90px;
-    margin: -50px auto;
+    margin: auto;
     background-color: #ffffff;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    z-index: 2 !important;
+    position: absolute;
+    left: 10%;
+    top: 7%;
 }
 .upper_navbar_cus_inner {
     width: 80%;
@@ -149,5 +158,80 @@
     }
 }
 /*!Upper Navbar For Responsive Ends*/
+/*Slider Hero Section Starts*/
+.slider_img_one {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/carouselTwo.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.slider_content_one {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.slider_content_two {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+.slider_img_two {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/carouselOne.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.hero_slider_main {
+    position: relative;
+}
+.owl-prev span {
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute;
+    font-size: 50px;
+    top: 42%;
+    left: 5%;
+    background-color: rgba(65, 125, 225, 0.4);
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.3px;
+    color: #ffffff;
+}
+.owl-next span {
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute;
+    font-size: 50px;
+    top: 42%;
+    right: 5%;
+    background-color: rgba(65, 125, 225, 0.4);
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.3px;
+    color: #ffffff;
+}
+/*Slider Hero Section Ends*/
 
 
