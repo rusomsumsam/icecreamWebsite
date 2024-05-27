@@ -232,6 +232,21 @@
     padding-top: 2.3px;
     color: #ffffff;
 }
+.owl-item.active .btn_pill {
+    animation-name: jackInTheBox;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.owl-item.active .slider_content_two {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.owl-item.active .slider_content_one {
+    animation-name: backInDown;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
 /*Slider Hero Section Ends*/
 
 
