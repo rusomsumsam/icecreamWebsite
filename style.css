@@ -533,6 +533,11 @@
     .promotional_video, .order_chocolate_ice_cream {
         width: 100%;
     }
+    .order_chocolate_ice_cream {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
+/*!Promotion and Order Section For Responsive Ends*/
 
 
