@@ -277,7 +277,7 @@
 /*History Content Starts*/
 .history_content_main {
     width: 80%;
-    margin: auto;
+    margin: 150px auto;
 }
 .history_content_wrap {
     width: 100%;
@@ -362,7 +362,177 @@
     }
 }
 /*!History Content For Responsive Ends*/
+/*Promotion and Order Section Starts*/
+.promotion_order_main {
+    width: 100%;
+}
+.promotion_order_inner {
+    width: 100%;
+}
+.promotional_video, .order_chocolate_ice_cream {
+    width: 50%;
+}
+.promotional_video_inner {
+    width: 100%;
+}
+.promotional_video img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+.order_chocolate_ice_cream {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f295b2;
+}
+.order_chocolate_ice_cream_price {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f3f6ff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order_chocolate_ice_cream_price p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+    color: #62c3e6;
+}
+.order_chocolate_ice_cream_big_txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+    color: #f3f6ff;
+}
+.order_chocolate_ice_cream_small_txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #f3f6ff;
+    text-align: center;
+}
+.btn_play {
+    position: relative;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    display: block;
+    box-sizing: content-box;
+    width: 16px;
+    height: 26px;
+    border-radius: 100%;
+    border: none;
+    outline: none !important;
+    padding: 18px 20px 20px 28px;
+    background: #FFFFFF;
+  }
+.btn_play span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    left: -5px;
+    border-left: 25px solid #F195B2;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+.btn_play:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    animation: pulse-border 1500ms ease-out infinite;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+  }
+.btn_play:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    transition: all 200ms;
+  }
+.promotional_video {
+    position: relative;
+  }
+.video_play_btn {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+  }
+@keyframes pulse-border {
+0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    -moz-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    -ms-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+     -o-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+  }
+100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+    -moz-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+    -ms-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+    -o-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+  }
+  }
+.video_close_btn {
+    border: none !important;
+    width: 5%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
+}
+.modal-content {
+    border-radius: 0 0 0 0 !important;
+    -webkit-border-radius: 0 0 0 0 !important;
+    -moz-border-radius: 0 0 0 0 !important;
+    -ms-border-radius: 0 0 0 0 !important;
+    -o-border-radius: 0 0 0 0 !important;
+    background: none !important;
+    border: none !important;
+}
+.modal-body {
+    padding: 0 !important;
+}
+.modal {
+    --bs-modal-width: 700px !important;
+}
+/*Promotion and Order Section Ends*/
+/*!Promotion and Order Section For Responsive Starts*/
+@media only screen and (max-width:991px) {
+    .promotion_order_inner {
+        flex-direction: column;
+    }
+    .promotional_video, .order_chocolate_ice_cream {
+        width: 100%;
+    }
+}
 
 
