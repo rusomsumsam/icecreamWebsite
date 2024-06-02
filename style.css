@@ -365,6 +365,7 @@
 /*Promotion and Order Section Starts*/
 .promotion_order_main {
     width: 100%;
+    margin-bottom: 150px;
 }
 .promotion_order_inner {
     width: 100%;
@@ -539,5 +540,30 @@
     }
 }
 /*!Promotion and Order Section For Responsive Ends*/
+/*Service Title Section Starts*/
+.service_vertical_line {
+    width: 6%;
+    height: 4px;
+    background-color: #f295b2;
+}
+.service_title_txt {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+.service_title_main {
+    width: 80%;
+    margin: auto;
+}
+/*Service Title Section Ends*/
+/*!Service Title Section For Responsive Starts*/
+@media only screen and (max-width:480px) {
+    .service_title_txt {
+        font-size: 22.4px;
+    }
+}
+/*!Service Title Section For Responsive Ends*/
+
 
 
