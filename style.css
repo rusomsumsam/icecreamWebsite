@@ -564,6 +564,108 @@
     }
 }
 /*!Service Title Section For Responsive Ends*/
+/*Service Slider Section Starts*/
+.service_slider_main {
+    width: 80%;
+    margin: auto;
+}
+.service_slider_inner {
+    width: 100%;
+    margin: auto;
+}
+.service_item {
+    background-color: #f3f6ff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.service_item:hover .quality_maintain_img img {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.service_item:hover .individual_approach_img img {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.service_item:hover .celebration_ice_cream_img img {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.service_item:hover .delivery_to_any_point_img img {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.quality_maintain_wrap, .individual_approach_wrap, .celebration_ice_cream_wrap, .delivery_to_any_point_wrap {
+    width: 85%;
+    margin: auto;
+}
+.quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+    width: 35%;
+    border-bottom: 12px solid #f295b2;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.quality_maintain_img img, .individual_approach_img img, .celebration_ice_cream_img img, .delivery_to_any_point_img img{
+    border: 12px solid #ffffff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition:1s ;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
+}
+.quality_maintain_big_txt p, .individual_approach_big_txt p, .celebration_ice_cream_big_txt p, .delivery_to_any_point_big_txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.quality_maintain_small_txt p, .individual_approach_small_txt p, .celebration_ice_cream_small_txt p, .delivery_to_any_point_small_txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+}
+#myNav .owl-prev, #myNav .owl-next {
+    color: #F195B2;
+    margin: 5px;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: none;
+}
+#myNav .owl-prev i, #myNav .owl-next i {
+    font-size: 20px;
+    font-weight: 900;
+}
+#myNav {
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+/*Service Slider Section Ends*/
+
 
 
 

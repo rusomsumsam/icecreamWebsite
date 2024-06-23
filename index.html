@@ -130,7 +130,7 @@
   <!--Slider Hero Section Starts-->
   <section class="hero_slider_main w-100">
     <div class="hero_slider_inner">
-      <div class="owl-carousel owl-theme">
+      <div class="first_loop owl-carousel owl-theme">
         <div class="item">
           <div class="slider_img_one">
             <div class="slider_content_wrap w-100 h-100 d-flex flex-column justify-content-center align-items-center">
@@ -271,6 +271,84 @@
     </div>
   </section>
   <!--Service Title Section Ends-->
+  <!--Service Slider Section Starts-->
+  <section class="service_slider_main">
+    <div class="service_slider_inner">
+      <!--!For Custom Nav Button Starts-->
+      <div id="myNav" class="d-flex flex-row justify-content-end"></div>
+      <!--!For Custom Nav Button Ends-->
+      <div class="second_loop owl-carousel owl-theme">
+        <div class="service_item">
+          <div class="quality_maintain_wrap d-flex flex-column align-items-center">
+            <div class="quality_maintain_img">
+              <img src="img/serviceOne.webp" alt="">
+            </div>
+            <div class="quality_maintain_big_txt">
+              <p>Quality Maintain</p>
+            </div>
+            <div class="quality_maintain_small_txt">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis consequuntur sint eligendi quis beatae reiciendis laudantium.</p>
+            </div>
+            <div class="quality_maintain_link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service_item">
+          <div class="individual_approach_wrap d-flex flex-column align-items-center">
+            <div class="individual_approach_img">
+              <img src="img/serviceTwo.webp" alt="">
+            </div>
+            <div class="individual_approach_big_txt">
+              <p>Individual Approach</p>
+            </div>
+            <div class="individual_approach_small_txt">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis consequuntur sint eligendi quis beatae reiciendis laudantium.</p>
+            </div>
+            <div class="individual_approach_link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service_item">
+          <div class="celebration_ice_cream_wrap d-flex flex-column align-items-center">
+            <div class="celebration_ice_cream_img">
+              <img src="img/serviceThree.webp" alt="">
+            </div>
+            <div class="celebration_ice_cream_big_txt">
+              <p>Celebration Ice Cream</p>
+            </div>
+            <div class="celebration_ice_cream_small_txt">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis consequuntur sint eligendi quis beatae reiciendis laudantium.</p>
+            </div>
+            <div class="celebration_ice_cream_link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service_item">
+          <div class="delivery_to_any_point_wrap d-flex flex-column align-items-center">
+            <div class="delivery_to_any_point_img">
+              <img src="img/serviceFour.webp" alt="">
+            </div>
+            <div class="delivery_to_any_point_big_txt">
+              <p>Delivery To Any Point</p>
+            </div>
+            <div class="delivery_to_any_point_small_txt">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perspiciatis consequuntur sint eligendi quis beatae reiciendis laudantium.</p>
+            </div>
+            <div class="delivery_to_any_point_link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <!--Service Slider Section Ends-->
 
 
 
@@ -280,35 +358,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
     <script>
       const bsOffcanvas = new bootstrap.Offcanvas('#myOffcanvas')
       const offcanvasElementList = document.querySelectorAll('.offcanvas')
       const offcanvasList = [...offcanvasElementList].map(offcanvasEl => new bootstrap.Offcanvas(offcanvasEl))
-    </script>
-    <script>
-      $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-    nav:true,
-    dots:false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-    </script>
-    <script>
-      const myModal = new bootstrap.Modal('#myModal', {
-  keyboard: false
-})
     </script>
 </body>
 </html>
