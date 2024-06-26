@@ -574,9 +574,62 @@
     margin: auto;
 }
 .service_item {
+    width: 90%;
     background-color: #f3f6ff;
     margin-right: 10px;
     margin-left: 10px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.quality_maintain_wrap, .individual_approach_wrap, .celebration_ice_cream_wrap, .delivery_to_any_point_wrap {
+    width: 85%;
+    margin: auto;
+}
+.second_loop {
+    position: relative;
+}
+.quality_maintain_img {
+    position: absolute;
+    top: -2%;
+    left: 35%;
+}
+.individual_approach_img {
+    position: absolute;
+    top: -2%;
+    left: 35%;
+}
+.celebration_ice_cream_img {
+    position: absolute;
+    top: -2%;
+    left: 35%;
+}
+.delivery_to_any_point_img {
+    position: absolute;
+    top: -2%;
+    left: 35%;
+}
+.quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+    width: 30%;
+    border-bottom: 12px solid #f295b2;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.quality_maintain_img img, .individual_approach_img img, .celebration_ice_cream_img img, .delivery_to_any_point_img img{
+    border: 12px solid #ffffff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition:1s ;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
 }
 .service_item:hover .quality_maintain_img img {
     transform: rotate(360deg);
@@ -606,32 +659,6 @@
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
-.quality_maintain_wrap, .individual_approach_wrap, .celebration_ice_cream_wrap, .delivery_to_any_point_wrap {
-    width: 85%;
-    margin: auto;
-}
-.quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
-    width: 35%;
-    border-bottom: 12px solid #f295b2;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-}
-.quality_maintain_img img, .individual_approach_img img, .celebration_ice_cream_img img, .delivery_to_any_point_img img{
-    border: 12px solid #ffffff;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    transition:1s ;
-    -webkit-transition:1s ;
-    -moz-transition:1s ;
-    -ms-transition:1s ;
-    -o-transition:1s ;
-}
 .quality_maintain_big_txt p, .individual_approach_big_txt p, .celebration_ice_cream_big_txt p, .delivery_to_any_point_big_txt p {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -658,13 +685,174 @@
 }
 #myNav .owl-prev i, #myNav .owl-next i {
     font-size: 20px;
-    font-weight: 900;
 }
 #myNav {
     margin-top: -60px;
     margin-bottom: 50px;
 }
 /*Service Slider Section Ends*/
+/*!Service Slider Section For Responsive Starts*/
+@media only screen and (max-width:615px) {
+    #myNav {
+        justify-content: center !important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1120px) {
+    .quality_maintain_img {
+        top: 0%;
+    }
+    .individual_approach_img {
+        top: 0%;
+    }
+    .celebration_ice_cream_img {
+        top: 0%;
+    }
+    .delivery_to_any_point_img {
+        top: 0%;
+    }
+}
+@media only screen and (max-width:991px) {
+    .quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+        width: 12%;
+    }
+    .quality_maintain_img {
+        left: 45%;
+    }
+    .individual_approach_img {
+        left: 45%;
+    }
+    .celebration_ice_cream_img {
+        left: 45%;
+    }
+    .delivery_to_any_point_img {
+        left: 45%;
+    }
+    .service_slider_main {
+        width: 100%;
+    }
+    .service_item {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:700px) {
+    .quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+        width: 15%;
+    }
+    .quality_maintain_img {
+        left: 43%;
+    }
+    .individual_approach_img {
+        left: 43%;
+    }
+    .celebration_ice_cream_img {
+        left: 43%;
+    }
+    .delivery_to_any_point_img {
+        left: 43%;
+    }
+}
+@media only screen and (max-width:615px) {
+    #myNav {
+        margin-bottom: 0 !important;
+    }
+}
+@media only screen and (max-width:575px) {
+    .quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+        width: 17%;
+    }
+    .quality_maintain_img {
+        left: 42%;
+    }
+    .individual_approach_img {
+        left: 42%;
+    }
+    .celebration_ice_cream_img {
+        left: 42%;
+    }
+    .delivery_to_any_point_img {
+        left: 42%;
+    }
+}
+@media only screen and (max-width:495px) {
+    .quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+        width: 19%;
+    }
+    .quality_maintain_img {
+        left: 41%;
+    }
+    .individual_approach_img {
+        left: 41%;
+    }
+    .celebration_ice_cream_img {
+        left: 41%;
+    }
+    .delivery_to_any_point_img {
+        left: 41%;
+    }
+} 
+@media only screen and (max-width:450px) {
+    .quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+        width: 22%;
+    }
+    .quality_maintain_img {
+        left: 40%;
+    }
+    .individual_approach_img {
+        left: 40%;
+    }
+    .celebration_ice_cream_img {
+        left: 40%;
+    }
+    .delivery_to_any_point_img {
+        left: 40%;
+    }
+}  
+@media only screen and (max-width:390px) {
+    .quality_maintain_img, .individual_approach_img, .celebration_ice_cream_img, .delivery_to_any_point_img {
+        width: 25%;
+    }
+    .quality_maintain_img {
+        left: 39%;
+    }
+    .individual_approach_img {
+        left: 39%;
+    }
+    .celebration_ice_cream_img {
+        left: 39%;
+    }
+    .delivery_to_any_point_img {
+        left: 39%;
+    }
+}                                                                       
+/*!Service Slider Section For Responsive Ends*/
+/*Icecream Gallery Tittle Section Starts*/
+.vertical_line {
+    width: 6%;
+    height: 4px;
+    margin: auto;
+    background-color: #f295b2;
+}
+.icecream_gallery_title_txt {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.icecream_gallery_title_main {
+    margin-top: 100px;
+}
+/*Icecream Gallery Tittle Section Ends*/
+/*!Icecream Gallery Tittle For Responsive Starts*/
+@media only screen and (max-width:429px) {
+    .icecream_gallery_title_txt {
+        font-size: 24px;
+    }
+}
+/*!Icecream Gallery Tittle For Responsive Ends*/
 
 
 
