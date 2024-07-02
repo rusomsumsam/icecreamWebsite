@@ -860,11 +860,8 @@
 .ice_cream_gallery_inner {
     width: 100%;
 }
-.ice_cream_gallery_one, .ice_cream_gallery_two {
+.ice_cream_gallery {
     width: 100%;
-}
-.portfolio_item_main {
-    width: 34%;
 }
 .portfolio_item {
     width: 100%;
