@@ -856,6 +856,7 @@
 /*Icecream Gallery Section Starts*/
 .ice_cream_gallery_main {
     width: 100%;
+    margin-bottom: 150px;
 }
 .ice_cream_gallery_inner {
     width: 100%;
@@ -908,6 +909,30 @@
     height: calc(100% - 60px);
 }
 /*Icecream Gallery Section Ends*/
+/*Product Price Title Section Starts*/
+.price_vertical_line {
+    width: 6%;
+    height: 4px;
+    background-color: #f295b2;
+}
+.price_title_txt {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+.price_title_main {
+    width: 80%;
+    margin: auto;
+}
+/*Product Price Title Section Ends*/
+/*!Product Price Title Section For Responsive Starts*/
+@media only screen and (max-width:480px) {
+    .price_title_txt {
+        font-size: 22.4px;
+    }
+}
+/*!Product Price Title Section For Responsive Ends*/
 
 
 
