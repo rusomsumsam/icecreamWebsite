@@ -1021,12 +1021,20 @@
     }
     .product_price_img {
         width: 15%;
+        border: 12px solid #f295b2;
     }
     .product_price_tag {
         width: 8%;
     }
+}
+@media only screen and (max-width:560px) {
+    .product_price_img {
+        width: 25%;
+        border: 10px solid #f295b2;
+    }
+    .product_price_tag {
+        width: 12%;
+    }
 }                                      
 /*!Product Price Slider Section For Responsive Ends*/
-
-
 
