@@ -20,7 +20,7 @@ $('.first_loop').owlCarousel({
 /*For Second Slider Starts*/
 $('.second_loop').owlCarousel({
     loop:true,
-    margin:0,
+    margin:20,
     nav:true,
     dots:false,
     navContainer:'#myNav',
@@ -37,5 +37,26 @@ $('.second_loop').owlCarousel({
         }
     }
 })
-/*For Second Slider Ends*/ 
+/*For Second Slider Ends*/
+/*For Second Slider Starts*/
+$('.third_loop').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    dots:false,
+    navContainer:'#mySecondNav',
+    navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        992:{
+            items:4
+        }
+    }
+})
+/*For Second Slider Ends*/  
     
