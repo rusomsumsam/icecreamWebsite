@@ -38,7 +38,7 @@ $('.second_loop').owlCarousel({
     }
 })
 /*For Second Slider Ends*/
-/*For Second Slider Starts*/
+/*For Third Slider Starts*/
 $('.third_loop').owlCarousel({
     loop:true,
     margin:20,
@@ -58,5 +58,26 @@ $('.third_loop').owlCarousel({
         }
     }
 })
-/*For Second Slider Ends*/  
+/*For Third Slider Ends*/
+/*For Four Slider Starts*/
+$('.four_loop').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    dots:false,
+    navContainer:'#myThirdNav',
+    navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        992:{
+            items:3
+        }
+    }
+})
+/*For Four Slider Ends*/  
     
