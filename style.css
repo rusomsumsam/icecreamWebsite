@@ -1276,3 +1276,29 @@
     }
 }                                                        
 /*!Chefs Information Slider Section For Responsive Ends*/
+/*Clients Review Tittle Section Starts*/
+.vertical_line {
+    width: 6%;
+    height: 4px;
+    margin: auto;
+    background-color: #f295b2;
+}
+.clients_review_title_txt {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.clients_review_title_main {
+    margin-top: 100px;
+}
+/*Clients Review Tittle Section Ends*/
+/*!Clients Review Tittle For Responsive Starts*/
+@media only screen and (max-width:429px) {
+    .clients_review_title_txt {
+        font-size: 24px;
+    }
+}
+/*!Clients Review Tittle For Responsive Ends*/
