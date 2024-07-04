@@ -1250,6 +1250,12 @@
         margin-top: 20px !important;
         margin-bottom: 10px;
     }
+    .chefs_information_img::after {
+        top: 10px !important;
+        right: 10px !important;
+        bottom: 10px !important;
+        left: 10px !important;
+    }
 }
 @media only screen and (max-width:480px) {
     .chefs_information_img{
