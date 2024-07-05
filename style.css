@@ -1311,6 +1311,7 @@
 /*Clients Review Slider Section Starts*/
 .clients_review_slider_main {
     width: 100%;
+    margin-bottom: 100px;
 }
 .clients_review_slider_inner {
     width: 100%;
@@ -1400,4 +1401,104 @@
     }
 }
 /*!Clients Review Slider Section For Responsive Ends*/
-
+/*Footer Section Starts*/
+.footer_section_main {
+    width: 100%;
+}
+.footer_section_inner {
+    width: 100%;
+    background-color: #f3f6ff;
+}
+.footer_item_wrap {
+    width: 100%;
+    padding-top: 70px;
+}
+.footer_social_link {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.footer_social_link span {
+    border: 1px solid #62c3e6;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_social_link span a i {
+    color: #62c3e6;
+    font-size: 12px;
+}
+.footer_social_link span:hover {
+    background-color: #95cbdd;
+}
+.footer_social_link span:hover  a i {
+    color: #06061b;
+}
+.footer_horizontal_line {
+    width: 1px;
+    height: 54px;
+    margin: auto;
+    background-color: #c9c9c9;
+}
+.footer_get_in_touch_opening_hours_wrap {
+    width: 100%;
+    display: flex;
+}
+.footer_get_in_touch_item_wrap {
+    width: 49%;
+    text-align: end;
+    line-height: 8px;
+    padding-top: 15px;
+}
+.footer_opening_hours_item_wrap {
+    width: 49%;
+    line-height: 8px;
+    padding-top: 15px;
+}
+.footer_get_in_touch_big_txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.footer_get_in_touch_small_one_txt p {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.footer_get_in_touch_small_two_txt p span {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.footer_opening_hours_big_txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.footer_opening_hours_small_one_txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.footer_opening_hours_small_two_txt {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.footer_copyright_txt p {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+.footer_copyright_txt p .footer_cus {
+    color: #f295b2;
+}
+/*Footer Section Ends*/
+/*!Footer Section For Responsive Starts*/
+@media only screen and (max-width:390px) {
+    .footer_copyright_txt p {
+        font-size: 12px;
+    }
+}
+/*!Footer Section For Responsive Ends*/
