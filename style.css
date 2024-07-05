@@ -1193,9 +1193,15 @@
     align-items: center;
     justify-content: center;
 }
-.chefs_information_social_link a i {
+.chefs_information_social_link span a i {
     color: #62c3e6;
     font-size: 12px;
+}
+.chefs_information_social_link span:hover {
+    background-color: #95cbdd;
+}
+.chefs_information_social_link span:hover  a i {
+    color: #06061b;
 }
 #myThirdNav .owl-prev, #myThirdNav .owl-next {
     color: #F195B2;
@@ -1302,3 +1308,96 @@
     }
 }
 /*!Clients Review Tittle For Responsive Ends*/
+/*Clients Review Slider Section Starts*/
+.clients_review_slider_main {
+    width: 100%;
+}
+.clients_review_slider_inner {
+    width: 100%;
+}
+.five_loop {
+    width: 100%;
+}
+.clients_review_item {
+    width: 100%;
+}
+.clients_review_item_wrap {
+    width: 100%;
+}
+.quotation_icon span i {
+    color:#f295b2;
+    font-weight: 700;
+    font-size: 50px;
+}
+.quotation_txt {
+    width: 57%;
+}
+.quotation_txt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+}
+.clients_information_img {
+    width: 6%;
+}
+.clients_information_img img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.clients_information_big_txt {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: -16px;
+}
+.clients_information_small_txt {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+.owl-theme .owl-dots .owl-dot {
+    border: 1px solid #f295b2;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 13px !important;
+    height: 13px !important;
+    background: #f295b2 !important;
+    margin: 2px 2px !important;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #62c3e6 !important;
+}
+/*Clients Review Slider Section Ends*/
+/*!Clients Review Slider Section For Responsive Starts*/
+@media only screen and (max-width:1348px) {
+    .quotation_txt {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:955px) {
+    .quotation_txt {
+        width: 90%;
+    }
+}
+@media only screen and (max-width:520px) {
+    .quotation_txt {
+        width: 100%;
+        padding: 10px;
+    }
+    .quotation_txt p {
+        font-size: 16px;
+    }
+}
+/*!Clients Review Slider Section For Responsive Ends*/
+

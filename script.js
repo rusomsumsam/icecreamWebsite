@@ -79,5 +79,24 @@ $('.four_loop').owlCarousel({
         }
     }
 })
-/*For Four Slider Ends*/  
+/*For Four Slider Ends*/
+/*For Five Slider Starts*/
+$('.five_loop').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+/*For Five Slider Ends*/    
     
