@@ -159,6 +159,18 @@
 }
 /*!Upper Navbar For Responsive Ends*/
 /*Slider Hero Section Starts*/
+.hero_slider_main {
+    width: 100%;
+}
+.hero_slider_inner {
+    width: 100%;
+}
+.first_loop {
+    width: 100%;
+}
+.hero_slider_item {
+    width: 100% !important;
+}
 .slider_img_one {
     width: 100%;
     height: 800px;
@@ -232,6 +244,23 @@
     padding-top: 2.3px;
     color: #ffffff;
 }
+.slider_content_wrap .btn_pill {
+    width: 150px;
+    border-radius: 50px;
+    background-color: #f295b2;
+    color: #fdebe7;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.slider_content_wrap .btn_pill:hover {
+    color: #ffffff;
+    background-color: #ec80a2;
+    border: 2px solid red;
+    transition: 1s !important;
+    transform: scale(1.2) !important;
+  }
 .owl-item.active .btn_pill {
     animation-name: jackInTheBox;
     animation-duration: 1s;
@@ -313,11 +342,44 @@
     font-size: 14px;
     color: #807c7d;
 }
-.history_content_btn_pill_one {
+.history_content_one .history_content_btn_pill_one {
+    width: 150px;
+    border-radius: 50px;
     background-color: #62c3e6 !important;
+    color: #fdebe7;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
-.history_content_btn_pill_two {
+.history_content_three .history_content_btn_pill_two {
+    width: 150px;
+    border-radius: 50px;
     background-color: #f295b2;
+    color: #fdebe7;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.history_content_one .history_content_btn_pill_one:hover {
+    color: #ffffff;
+    background-color: #1d6dc7;
+    border: 2px solid red;
+    transition: 1s !important;
+    transform: scale(1.2) !important;
+}
+.history_content_three .history_content_btn_pill_two:hover {
+    color: #ffffff;
+    background-color: #ec80a2;
+    border: 2px solid red;
+    transition: 1s !important;
+    transform: scale(1.2) !important;
+  }
+.owl-item.active .btn_pill {
+    animation-name: jackInTheBox;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 .history_content_three_big_txt {
     font-family: "Poppins", sans-serif;
@@ -524,6 +586,28 @@
 }
 .modal {
     --bs-modal-width: 700px !important;
+}
+.order_chocolate_ice_cream .order_choco_icecream_btn {
+    width: 150px;
+    border-radius: 50px;
+    background-color: #62c3e6;
+    color: #fdebe7;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.order_chocolate_ice_cream .order_choco_icecream_btn:hover {
+    color: #ffffff;
+    background-color: #1d6dc7;
+    border: 2px solid red;
+    transition: 1s !important;
+    transform: scale(1.2) !important;
+}
+.owl-item.active .btn_pill {
+    animation-name: jackInTheBox;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 /*Promotion and Order Section Ends*/
 /*!Promotion and Order Section For Responsive Starts*/
@@ -994,6 +1078,28 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+.product_price_item_wrap .btn_pill {
+    width: 150px;
+    border-radius: 50px;
+    background-color: #62c3e6;
+    color: #fdebe7;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.product_price_item_wrap .btn_pill:hover {
+    color: #ffffff;
+    background-color: #1d6dc7;
+    border: 2px solid red;
+    transition: 1s !important;
+    transform: scale(1.2) !important;
+}
+.owl-item.active .btn_pill {
+    animation-name: jackInTheBox;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 #mySecondNav .owl-prev, #mySecondNav .owl-next {
     color: #F195B2;
