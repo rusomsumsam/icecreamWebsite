@@ -158,14 +158,15 @@
     }
 }
 /*!Upper Navbar For Responsive Ends*/
-/*About Section Starts*/
-.about_main {
+/*Product Section Starts*/
+.product_main {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.product_inner {
     width: 100%;
 }
-.about_inner {
-    width: 100%;
-}
-.about_item_wrap {
+.product_item_wrap {
     width: 100%;
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/header.webp);
@@ -173,39 +174,38 @@
     background-position: center center;
     background-size: cover;
 }
-.about_big_txt p {
+.product_big_txt p {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 46px;
     color: #ffffff;
 }
-.home_about_link_wrap {
+.home_product_link_wrap {
     margin-top: -15px;
 }
-.home_about_link_wrap span {
+.home_product_link_wrap span {
     margin: 0 5px 0 5px;
 }
-.home_about_link_wrap span a {
+.home_product_link_wrap span a {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #ffffff;
     text-decoration: none;
 }
-.home_about_link_wrap span i {
+.home_product_link_wrap span i {
     font-size: 10px;
     color: #ffffff;
-   
 }
-/*About Section Ends*/
-/*History Title Starts*/
+/*Product Section Ends*/
+/*Product Gallery Title Section Starts*/
 .vertical_line {
     width: 6%;
     height: 4px;
     margin: auto;
     background-color: #f295b2;
 }
-.history_title_txt {
+.product_gallery_title_txt {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -213,377 +213,155 @@
     text-align: center;
     padding: 15px;
 }
-.history_title_main {
+.product_gallery_title_main {
     margin-top: 100px;
 }
-/*History Title Ends*/
-/*!History Title For Responsive Starts*/
+/*Product Gallery Title Section Ends*/
+/*!Product Gallery Title For Responsive Starts*/
 @media only screen and (max-width:429px) {
-    .history_title_txt {
+    .product_gallery_title_txt {
         font-size: 24px;
     }
 }
-/*!History Title For Responsive Ends*/
-/*History Content Starts*/
-.history_content_main {
+/*!Product Gallery Title For Responsive Ends*/
+/*Product Gallery Section Starts*/
+.product_gallery_main {
     width: 80%;
-    margin: 0 auto 150px auto;
+    margin: auto;
 }
-.history_content_wrap {
-    width: 100%;
+.product_gallery_inner {
+    width: 118%;
 }
-.history_content_one, .history_content_two, .history_content_three {
-    width: 30%;
-}
-.history_content_two img {
-    width: 100%;
+.product_item_col {
+    background-color: #e0dcdc;
     border-radius: 2%;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
     -ms-border-radius: 2%;
     -o-border-radius: 2%;
+    margin: 0 10px 20px 10px;
 }
-.history_content_one_big_txt p {
+.product_price_item_wrap {
+    width: 100%;
+}
+.product_price_tag {
+    background-color: #f295b2;
+    width: 25%;
+}
+.product_price_tag span {
+    color: #ffffff;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 10px;
 }
-.history_content_one_mid_txt p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    color: #726f70;
+.product_price_img {
+    margin-top: -16px;
 }
-.history_content_one_small_txt p {
+.product_price_img img{
+    width: 130px;
+    height: 130px;
+    border: 15px solid #f295b2;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.product_price_big_txt {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
-    color: #807c7d;
 }
-.history_content_one .history_content_btn_pill_one {
+.product_price_item_wrap .btn_pill {
     width: 150px;
     border-radius: 50px;
-    background-color: #62c3e6 !important;
+    background-color: #62c3e6;
     color: #fdebe7;
     padding: 12px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-.history_content_three .history_content_btn_pill_two {
-    width: 150px;
-    border-radius: 50px;
-    background-color: #f295b2;
-    color: #fdebe7;
-    padding: 12px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-.history_content_one .history_content_btn_pill_one:hover {
+.product_price_item_wrap .btn_pill:hover {
     color: #ffffff;
     background-color: #1d6dc7;
     border: 2px solid red;
     transition: 1s !important;
     transform: scale(1.2) !important;
 }
-.history_content_three .history_content_btn_pill_two:hover {
+.product_gallery_button .btn_pill {
+    width: 150px;
+    border-radius: 50px;
+    background-color: #f295b2;
+    color: #fdebe7;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.product_gallery_button .btn_pill:hover {
     color: #ffffff;
-    background-color: #ec80a2;
+    background-color: #c71d9c;
     border: 2px solid red;
     transition: 1s !important;
     transform: scale(1.2) !important;
-  }
+}
 .owl-item.active .btn_pill {
     animation-name: jackInTheBox;
     animation-duration: 1s;
     animation-fill-mode: both;
 }
-.history_content_three_big_txt {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-}
-.history_content_three_small_txt {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14px;
-    color: #807c7d;
-}
-.history_check_icon {
-    color: #62c3e6;
-    font-weight: 900 !important;
-}
-/*History Content Ends*/
-/*!History Content For Responsive Starts*/
-@media only screen and (max-width:920px) {
-    .history_content_wrap {
-        flex-direction: column;
-    }
-    .history_content_one, .history_content_two, .history_content_three {
-        width: 100%;
+/*Product Gallery Section Ends*/
+/*!Product Gallery Section For Responsive Starts*/
+@media only screen and (max-width:1199px) {
+    .product_gallery_inner {
+        width: 128%;
     }
 }
-@media only screen and (min-width:921px) {
-    .history_content_two img:hover {
-        transform: scale(1.2);
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
-        box-shadow: 5px 10px 8px #888888;
-    }
-}
-/*!History Content For Responsive Ends*/
-/*Chefs Information Title Section Starts*/
-.chefs_information_vertical_line {
-    width: 6%;
-    height: 4px;
-    background-color: #f295b2;
-}
-.chefs_information_title_txt {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-}
-.chefs_information_title_main {
-    width: 80%;
-    margin: auto;
-}
-/*Chefs Information Title Section Ends*/
-/*!Chefs Information Title Section For Responsive Starts*/
-@media only screen and (max-width:480px) {
-    .chefs_information_title_txt {
-        font-size: 22.4px;
-    }
-}
-/*!Chefs Information Title Section For Responsive Ends*/
-/*Chefs Information Slider Section Starts*/
-.chefs_information_slider_main {
-    width: 80%;
-    margin: auto;
-}
-.chefs_information_slider_inner {
-    width: 100%;
-    margin: auto;
-}
-.chefs_information_item {
-    width: 100%;
-    background-color: #f3f6ff;
-    border-radius: 2%;
-    -webkit-border-radius: 2%;
-    -moz-border-radius: 2%;
-    -ms-border-radius: 2%;
-    -o-border-radius: 2%;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    margin-top: 70px;
-}
-.four_loop {
-    position: relative;
-}
-.chefs_information_img{
-    width: 40%;
-    border: 10px solid #f295b2;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    position: absolute;
-    top: 1%;
-}
-.chefs_information_img img{
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-}
-.chefs_information_img::after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    bottom: 15px;
-    left: 15px;
-    border: 2px solid #f295b2;
-    border-radius: 200px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    -ms-border-radius: 200px;
-    -o-border-radius: 200px;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-}
-.chefs_information_item:hover .chefs_information_img img {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transition: 0.7s;
-    -webkit-transition: 0.7s;
-    -moz-transition: 0.7s;
-    -ms-transition: 0.7s;
-    -o-transition: 0.7s;
-}
-.chefs_information_item:hover .chefs_information_img {
-    padding: 10px;
-}
-.chefs_information_item:hover .chefs_information_img::after {
-    top: -3px;
-    right: -3px;
-    bottom: -3px;
-    left: -3px;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-}
-.chefs_information_item_wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.chefs_information_big_txt {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 20px;
-}
-.chefs_information_small_txt {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 13px;
-}
-.chefs_information_social_link {
-    display: flex;
-    gap: 10px;
-}
-.chefs_information_social_link span {
-    border: 1px solid #62c3e6;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.chefs_information_social_link span a i {
-    color: #62c3e6;
-    font-size: 12px;
-}
-.chefs_information_social_link span:hover {
-    background-color: #95cbdd;
-}
-.chefs_information_social_link span:hover  a i {
-    color: #06061b;
-}
-#myThirdNav .owl-prev, #myThirdNav .owl-next {
-    color: #F195B2;
-    margin: 5px;
-    width: 46px;
-    height: 46px;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    border: none;
-}
-#myThirdNav .owl-prev i, #myThirdNav .owl-next i {
-    font-size: 20px;
-}
-#myThirdNav {
-    margin-top: -60px;
-    margin-bottom: 50px;
-}
-/*Chefs Information Slider Section Ends*/
-/*!Chefs Information Slider Section For Responsive Starts*/
 @media only screen and (max-width:991px) {
-    .chefs_information_slider_main {
+    .product_gallery_inner {
+        width: 146%;
+    }
+    .product_price_tag {
+        background-color: #f295b2;
+        width: 20%;
+    }
+    .product_price_img img{
+        width: 120px;
+        height: 120px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .product_gallery_main {
         width: 100%;
     }
-    .chefs_information_img{
+    .product_gallery_inner {
+        width: 200%;
+    }
+    .product_price_tag {
+        background-color: #f295b2;
+        width: 8%;
+    }
+}
+@media only screen and (max-width:640px) {
+    .product_price_tag {
+        background-color: #f295b2;
+        width: 12%;
+    }
+}
+@media only screen and (max-width:440px) {
+    .product_price_tag {
+        background-color: #f295b2;
         width: 15%;
     }
 }
-@media only screen and (max-width:860px) {
-    .chefs_information_img{
-        width: 18%;
-    }
-}
-@media only screen and (max-width:729px) {
-    .chefs_information_img{
-        width: 20%;
-    }
-}
-@media only screen and (max-width:660px) {
-    .chefs_information_img{
-        width: 23%;
-        top: 4%;
-    }
-}
-@media only screen and (max-width:615px) {
-    #myThirdNav {
-        justify-content: center !important;
-    }
-    #myThirdNav {
-        margin-top: 20px !important;
-        margin-bottom: 10px;
-    }
-    .chefs_information_img::after {
-        top: 10px !important;
-        right: 10px !important;
-        bottom: 10px !important;
-        left: 10px !important;
-    }
-}
-@media only screen and (max-width:480px) {
-    .chefs_information_img{
-        width: 25%;
-        top: 5%;
-    }
-}
-@media only screen and (max-width:430px) {
-    .chefs_information_img{
-        width: 27%;
-        top: 6%;
-    }
-}
-@media only screen and (max-width:399px) {
-    .chefs_information_img{
-        width: 28%;
-        top: 7%;
-    }
-}                                                        
-/*!Chefs Information Slider Section For Responsive Ends*/
+/*!Product Gallery Section For Responsive Ends*/
 /*Footer Section Starts*/
 .footer_section_main {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .footer_section_inner {
     width: 100%;
