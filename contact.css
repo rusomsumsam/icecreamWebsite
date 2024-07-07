@@ -159,14 +159,14 @@
 }
 /*!Upper Navbar For Responsive Ends*/
 /*Gallery Section Starts*/
-.gallery_main {
+.contact_main {
     width: 100%;
     margin-bottom: 100px;
 }
-.gallery_inner {
+.contact_inner {
     width: 100%;
 }
-.gallery_item_wrap {
+.contact_item_wrap {
     width: 100%;
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/header.webp);
@@ -174,38 +174,38 @@
     background-position: center center;
     background-size: cover;
 }
-.gallery_big_txt p {
+.contact_big_txt p {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 46px;
     color: #ffffff;
 }
-.home_gallery_link_wrap {
+.home_contact_link_wrap {
     margin-top: -15px;
 }
-.home_gallery_link_wrap span {
+.home_contact_link_wrap span {
     margin: 0 5px 0 5px;
 }
-.home_gallery_link_wrap span a {
+.home_contact_link_wrap span a {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #ffffff;
     text-decoration: none;
 }
-.home_gallery_link_wrap span i {
+.home_contact_link_wrap span i {
     font-size: 10px;
     color: #ffffff;
 }
 /*Gallery Section Ends*/
-/*Icecream Gallery Tittle Section Starts*/
+/*Contact Tittle Section Starts*/
 .vertical_line {
     width: 6%;
     height: 4px;
     margin: auto;
     background-color: #f295b2;
 }
-.icecream_gallery_title_txt {
+.contact_title_txt {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -213,92 +213,126 @@
     text-align: center;
     padding: 15px;
 }
-.icecream_gallery_title_main {
+.contact_title_main {
     margin-top: 100px;
 }
-/*Icecream Gallery Tittle Section Ends*/
-/*!Icecream Gallery Tittle For Responsive Starts*/
+/*Contact Tittle Section Ends*/
+/*!Contact Tittle For Responsive Starts*/
 @media only screen and (max-width:429px) {
-    .icecream_gallery_title_txt {
+    .contact_title_txt {
         font-size: 24px;
     }
 }
-/*!Icecream Gallery Tittle For Responsive Ends*/
-/*Icecream Gallery Section Starts*/
-.ice_cream_gallery_main {
-    width: 100%;
-}
-.ice_cream_gallery_inner {
-    width: 80%;
+/*!Contact Tittle For Responsive Ends*/
+/*Contact Form Section Starts*/
+.contact_form_main {
+    width: 66%;
     margin: auto;
 }
-.ice_cream_gallery {
+.contact_form_inner {
     width: 100%;
 }
-.portfolio_item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact_page {
+    width: 90%;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
-.portfolio_item_main {
-    position: relative;
+.contact_form_name_email_wrap {
+    gap: 10px;
+    margin-bottom: 20px;
 }
-.portfolio_item::after {
-    content: "";
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    bottom: 30px;
-    left: 30px;
-    border: 2px solid #ffffff;
-    z-index: 1;
+.contact_form_name, .contact_form_email {
+    background-color: #f3f6ff;
+    width: 50%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
-.portfolio_item_main {
-    position: relative;
+.contact_form_name input, .contact_form_email input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 1px solid #575757;
+    padding-left: 20px;
 }
-.portfolio_btn {
-    position: absolute;
-    width: 0;
-    height: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    opacity: 0;
-    transition: 0.5s;
-    background: #ffffff;
-    z-index: 2;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+.contact_form_sub {
+    background-color: #f3f6ff;
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-bottom: 20px;
 }
-.portfolio_item_main:hover .portfolio_btn {
-    opacity: 1;
-    width: calc(100% - 60px);
-    height: calc(100% - 60px);
+.contact_form_sub input {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 1px solid #575757;
+    padding-left: 20px;
 }
-.filter_btn_cus {
-    margin-bottom: 50px;
-    gap: 30px;
+.contact_form_msg {
+    background-color: #f3f6ff;
+    width: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-bottom: 20px;
 }
-.filter_btn_cus .btn_pill {
-    width: 150px;
-    border-radius: 50px;
-    border: 2px solid #f295b2;
-    color: #f295b2;
-    padding: 12px;
+.contact_form_msg .contact_form_msg_txtarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid #575757;
+    padding-left: 20px;
 }
-.filter_btn_cus .btn_pill:hover {
+.contact_form_btn button{
+    width: 90%;
+    height: 50px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     background-color: #f295b2;
-    color: black;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
-.button:active,
-.button.is-checked {
-    background-color: #f295b2;
-    color: black;
+input[type="text"]:focus {
+    border: 1px solid #f295b2;
+    outline: 1px solid #f295b2;
 }
-/*Icecream Gallery Section Ends*/
+.contact_form_msg_txtarea:focus {
+    border: 1px solid #f295b2;
+    outline: 1px solid #f295b2;
+}
+/*Contact Form Section Starts*/
+/*!Contact Form Section For Responsive Starts*/
+@media only screen and (max-width:767px) {
+    .contact_form_main {
+        width: 100%;
+    }
+}
 /*Footer Section Starts*/
 .footer_section_main {
     width: 100%;
