@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    scroll-behavior: smooth;
+}
 /*Lower Navbar Starts*/
 .lower_navbar_cus_main {
     width: 100%;
