@@ -1,3 +1,21 @@
+"use strict"
+/*Scroll Top Button Starts*/
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 150) {
+            $('#scrollTopButton').fadeIn();
+        } else {
+            $('#scrollTopButton').fadeOut();
+        }
+    })
+    $('#scrollTopButton').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    })
+})
+/*Scroll Top Button Ends*/
 /*For Sticky Nav Starts*/
 $(document).ready(function() {
     $(window).scroll(function () {
@@ -26,17 +44,7 @@ $(document).ready(function() {
         }
     })
 })
-
-
-
-
-
-
-
-
-
-
-
+/*For Sticky Nav Ends*/
 /*For First Slider Starts*/
 $('.first_loop').owlCarousel({
     loop:true,
@@ -168,3 +176,6 @@ var $grid = $('.ice_cream_gallery').isotope({
     });
   });
   /*For Gallery Sorting Ends*/
+  
+  
+ 
