@@ -153,6 +153,27 @@ body {
 .upper_navbar_left_item_cus li a:hover, .upper_navbar_right_item_cus li a:hover {
     color: #f295b2;
 }
+.upper_navbar_left_item_cus li a.active {
+    color: #f295b2 !important;
+}
+.upper_navbar_left_item_cus li a.active:hover {
+    color: #f295b2;
+}
+/*!For Sticky Starts*/
+.problem {
+    visibility: hidden;
+}
+.scrolled {
+    position: fixed;
+}
+.opacity_cus {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    transition: 0.5s !important;
+    -webkit-transition: 0.5s !important;
+    -moz-transition: 0.5s !important;
+    -ms-transition: 0.5s !important;
+    -o-transition: 0.5s !important;
+}
 /*Upper Navbar Ends*/
 /*!Upper Navbar For Responsive Starts*/
 @media only screen and (min-width:992px) and (max-width:1300px) {

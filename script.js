@@ -1,3 +1,42 @@
+/*For Sticky Nav Starts*/
+$(document).ready(function() {
+    $(window).scroll(function () {
+        if ($(window).scrollTop () >= 0) {
+            $("#upperStickyNav").addClass("scrolled");
+        } else {
+            $("#upperStickyNav").removeClass("scrolled");
+        }
+    })
+})
+$(document).ready(function() {
+    $(window).scroll(function () {
+        if ($(window).scrollTop () >= 0) {
+            $("#upperSticky").addClass("problem");
+        } else {
+            $("#upperSticky").removeClass("problem");
+        }
+    })
+})
+$(document).ready(function() {
+    $(window).scroll(function () {
+        if ($(window).scrollTop () >= 37) {
+            $("#upperStickyNav").addClass("opacity_cus");
+        } else {
+            $("#upperStickyNav").removeClass("opacity_cus");
+        }
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
 /*For First Slider Starts*/
 $('.first_loop').owlCarousel({
     loop:true,
@@ -128,3 +167,4 @@ var $grid = $('.ice_cream_gallery').isotope({
       $( this ).addClass('is-checked');
     });
   });
+  /*For Gallery Sorting Ends*/
